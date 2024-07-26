@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Boxes Example</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+        .color-box {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            margin: 5px;
+        }
+        .color-1 { background-color: #3896C4; }
+        .color-2 { background-color: #A0D4EE; }
+        .color-3 { background-color: #EA8783; }
+        .color-4 { background-color: #FEB5A2; }
+        .color-5 { background-color: #BA7E45; }
+        .color-6 { background-color: #39B87F; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="color-box color-1"></div>
+            <div class="color-box color-2"></div>
+            <div class="color-box color-3"></div>
+        </div>
+        <div class="row">
+            <div class="color-box color-4"></div>
+            <div class="color-box color-5"></div>
+            <div class="color-box color-6"></div>
+        </div>
+    </div>
+</body>
+</html>
